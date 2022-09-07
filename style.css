@@ -121,6 +121,42 @@ a:hover {
   border-radius: 20px;
 }
 
+.work-section {
+  padding: 100px;
+}
+
+.work-section col-lg-6 {
+  padding: 0 2px 0 2px;
+}
+
+.work-section h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 85px;
+}
+
+.work-section h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  font-family: var(--para-font);
+}
+
+.work-section p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.work-section img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
 @media (max-width: 992px) {
   .hero {
     padding: 110px 20px;
