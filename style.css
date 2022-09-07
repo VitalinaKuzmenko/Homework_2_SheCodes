@@ -93,15 +93,35 @@ a:hover {
   cursor: pointer;
 }
 
-/* .featured-text {
-  padding-top: 50px;
-} */
-
 .column {
   padding: 0 30px;
 }
 
-@media (max-width: 768px) {
+.about-content {
+  padding: 80px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.about-section h3 {
+  font-family: var(--para-font);
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 700;
+}
+
+.about-section p {
+  padding-bottom: 20px;
+}
+
+.about-section img {
+  border-radius: 20px;
+}
+
+@media (max-width: 992px) {
   .hero {
     padding: 110px 20px;
   }
