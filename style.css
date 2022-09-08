@@ -170,6 +170,37 @@ a:hover {
   font-weight: 700;
 }
 
+nav {
+  margin: 30px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline-block;
+}
+
+nav img {
+  max-height: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  line-height: 24px;
+  font-size: 16px;
+  color: rgba(39, 33, 66, 0.7);
+  padding-right: 30px;
+  font-family: var(--para-font);
+  transition: all 150ms ease-in-out;
+}
+
+nav a:hover,
+nav .active {
+  color: var(--main-color);
+}
+
 @media (max-width: 992px) {
   .hero {
     padding: 110px 20px;
@@ -189,5 +220,10 @@ a:hover {
 
   .featured-text {
     padding-top: 20px;
+  }
+
+  nav a {
+    padding-right: 15px;
+    font-size: 14px;
   }
 }
