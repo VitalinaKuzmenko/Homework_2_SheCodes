@@ -158,13 +158,16 @@ a:hover {
 }
 
 .contact-section {
-  margin: 150px 200px 40px 200px;
+  margin-top: 150px;
+}
+
+.contact-section .row {
+  padding: 10px 10px;
 }
 
 .contact-section h1 {
   font-size: 64px;
   font-weight: 700;
-  line-height: 85px;
 }
 
 @media (max-width: 992px) {
