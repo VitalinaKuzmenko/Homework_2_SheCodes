@@ -3,6 +3,7 @@
   --back-color: #f9f7fe;
   --heading-font: "Playfair Display", serif;
   --para-font: "Poppins", sans-serif;
+  --para-color: rgba(39, 33, 66, 0.7);
 }
 
 h1,
@@ -28,6 +29,7 @@ p {
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
+  color: var(--para-color);
 }
 
 .hero {
@@ -76,7 +78,7 @@ a:hover {
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
-  color: rgba(39, 33, 66, 0.7);
+  color: var(--para-color);
 }
 
 .button-2 {
@@ -190,7 +192,7 @@ nav a {
   text-decoration: none;
   line-height: 24px;
   font-size: 16px;
-  color: rgba(39, 33, 66, 0.7);
+  color: var(--para-color);
   padding-right: 30px;
   font-family: var(--para-font);
   transition: all 150ms ease-in-out;
@@ -199,6 +201,53 @@ nav a {
 nav a:hover,
 nav .active {
   color: var(--main-color);
+}
+
+.contact-box {
+  background: var(--back-color);
+  border-radius: 10px;
+  margin-left: 45px;
+  padding: 50px 80px;
+  padding-bottom: 30px;
+}
+
+.contact-box h1 {
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 700;
+  padding-left: 30px;
+}
+
+.contact-box p {
+  padding-left: 30px;
+}
+
+.contact-box .button-3 {
+  padding-top: 40px;
+  padding-right: 50px;
+}
+
+.contact-email h3 {
+  font-size: 24px;
+  line-height: 36px;
+  font-family: var(--para-font);
+  font-weight: 500;
+}
+
+.social-links i {
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0 20px;
+  padding: 12px 15px;
+  border-radius: 50%;
+  color: var(--main-color);
+  background: var(--back-color);
+  transition: all 100ms ease-in-out;
+}
+
+.social-links i:hover {
+  color: var(--back-color);
+  background: var(--main-color);
 }
 
 @media (max-width: 992px) {
@@ -225,5 +274,27 @@ nav .active {
   nav a {
     padding-right: 15px;
     font-size: 14px;
+  }
+
+  .contact-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-box h1 {
+    padding-left: 0;
+  }
+
+  .contact-box p {
+    padding-left: 0;
+  }
+
+  .contact-box .button-3 {
+    padding-top: 15px;
+    padding-right: 0;
+  }
+
+  .contact-email {
+    margin-top: 40px;
   }
 }
