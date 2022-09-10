@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+    name="description"
+    content="Contact Patricia. Patricia Pereira is a front-end Developer based in Portugal. "
+  />
+  <title>Contact Patricia Pereira</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
@@ -29,6 +33,35 @@
     ></script>
   </head>
   <body>
+    <header>
+      <div class="container">
+        <nav class="d-flex justify-content-between align-items-center">
+          <img class="d-none d-md-block" src="images/logo.png" alt="logo" />
+          <img
+            class="d-block d-md-none"
+            src="images/small-logo.jpg"
+            alt="small-logo"
+          />
+          <ul>
+            <li>
+              <a href="/" title="Homepage">Home</a>
+            </li>
+            <li>
+              <a href="/about.html" title="About Patricia">About</a>
+            </li>
+            <li>
+              <a href="/work.html" title="Works of Patricia"
+                >Work</a
+              >
+            </li>
+            <li>
+              <a class="active" href="/contact.html" title="Contact Patricia">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
     <div class="contact-section container">
       <div class="row">
         <div class="col mb-5"><h1 >Let's get in touch!</h1></div>
@@ -55,5 +88,58 @@
         </div>
       </div>
     </div>
+
+    <footer>
+      <div class="container">
+        <div
+          class="contact-box mt-5 mb-5 justify-content-between d-none d-md-flex"
+        >
+          <div>
+            <h1>Work Inquiry</h1>
+            <p>Let’s work together and i’ll help you by all my best</p>
+          </div>
+          <div class="button-3">
+            <a class="button-1" href="contact.html" title="Contact me"
+              >Contact me</a
+            >
+          </div>
+        </div>
+
+        <div class="contact-email d-flex flex-column text-center">
+          <a class="mb-4" href="mailto:patricia@gmail.com"
+            >patricia@gmail.com</a
+          >
+
+          <div class="social-links mb-5 mt-2">
+            <a
+              href="https://www.facebook.com/patricia"
+              title="facebook-profile"
+              target="_blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              href="https://twitter.com/patricia"
+              title="twitter-profile"
+              target="_blank"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/patricia"
+              target="_blank"
+              title="intagram-profile"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <p class="open-source-text mt-5">
+              This project was coded by Vitalina Kuzmenko, and it is
+              <a
+                href="https://github.com/VitalinaKuzmenko/Homework_2_SheCodes"
+                target="_blank"
+                >open-sourced</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

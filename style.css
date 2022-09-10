@@ -100,7 +100,7 @@ a:hover {
 }
 
 .about-content {
-  padding: 80px;
+  padding: 40px;
 }
 
 .about-section h1 {
@@ -124,7 +124,7 @@ a:hover {
 }
 
 .work-section {
-  padding: 100px;
+  padding: 70px;
 }
 
 .work-section col-lg-6 {
@@ -227,11 +227,13 @@ nav .active {
   padding-right: 50px;
 }
 
-.contact-email h3 {
+.contact-email a {
   font-size: 24px;
   line-height: 36px;
   font-family: var(--para-font);
   font-weight: 500;
+  text-decoration: none;
+  color: black;
 }
 
 .social-links i {
@@ -250,6 +252,16 @@ nav .active {
   background: var(--main-color);
 }
 
+.open-source-text {
+  font-size: 16px;
+}
+
+.open-source-text a {
+  font-size: 16px;
+  text-decoration: underline;
+  color: var(--main-color);
+}
+
 @media (max-width: 992px) {
   .hero {
     padding: 110px 20px;
@@ -257,6 +269,16 @@ nav .active {
 
   h1 {
     font-size: 54px;
+  }
+
+  .work-section {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .work-section h1 {
+    font-size: 40px;
+    line-height: 70px;
   }
 
   h2 {
@@ -274,6 +296,10 @@ nav .active {
   nav a {
     padding-right: 15px;
     font-size: 14px;
+  }
+
+  .about-content {
+    padding: 0px;
   }
 
   .contact-box {
